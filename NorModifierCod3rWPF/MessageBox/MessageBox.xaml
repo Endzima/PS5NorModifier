@@ -1,0 +1,25 @@
+﻿<Page x:Class="NorModifierCod3rWPF.MessageBox.MessageBox"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NorModifierCod3rWPF.MessageBox"
+      mc:Ignorable="d" 
+      MinHeight="558" MinWidth="847"
+      Title="MessageBox">
+
+    <Grid>
+        <DockPanel Background="Black" Opacity="0.7"/>
+        <Border Width="400" Height="200" Background="#787878" ClipToBounds="False">
+            <Grid>
+                <DockPanel Height="35" Background="#8b8b8b" VerticalAlignment="Top" ClipToBounds="False">
+                    <TextBlock Name="HeaderText" Text="Message" Margin="15,0,5,0" VerticalAlignment="Center" ClipToBounds="False" FontSize="12" FontWeight="SemiBold"/>
+                </DockPanel>
+
+                <TextBlock Name="MessageDescription" Text="An error occured. Please try again." Margin="20,50,40,0" VerticalAlignment="Top" ClipToBounds="False" FontSize="11" FontWeight="Medium" TextWrapping="Wrap"/>
+
+                <Button Width="60" Height="25" Click="Button_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="7" Content="OK" FontSize="10"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

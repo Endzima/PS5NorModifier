@@ -1,0 +1,22 @@
+﻿<Page x:Class="NorModifierCod3rWPF.Pages.SubPages.About"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NorModifierCod3rWPF.Pages.SubPages"
+      mc:Ignorable="d" 
+      MinHeight="558" MinWidth="847"
+      Title="About">
+
+    <Grid>
+        <Image Source="pack://application:,,,/Assets/TCT.png" Width="50" Height="50" RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,75,0,0"/>
+        <StackPanel Margin="30,70,30,0">
+            <Label Content="TheCod3r's PS5 Tools alpha" FontSize="15" FontWeight="SemiBold" Margin="60,0,0,0"/>
+            <TextBlock Text="This application is a fork of the original 'PS5 NOR Modifier' from TheCod3r. All donations made from this are directly into his PayPal. I do not expect profit from this app." TextWrapping="Wrap" Margin="65,0,100,0" FontWeight="Medium"/>
+            <DockPanel Height="1" Background="#c3c3c3" UseLayoutRounding="True" Margin="0,20,0,10"/>
+            <TextBlock Text="The source code for this application can be found on GitHub try pressing on this text. The code used to process or modify values in the NOR is the original source, ensuring that it is 100% working as I would not want to cause damage to users consoles." TextWrapping="Wrap" Margin="0,0,0,10" FontWeight="Medium"/>
+            <TextBlock Text="Experiencing issues using the app? Feel free to drop @dogmountaindew a message on Discord, or email isaacwhite250@gmail.com if that doesn't suit you." TextWrapping="Wrap" FontWeight="Medium"/>
+            <TextBlock Text="Please note all and any use of this software is your responsibility, I am not liable for any damage done to your system." TextWrapping="Wrap" FontWeight="Medium"/>
+        </StackPanel>
+    </Grid>
+</Page>
